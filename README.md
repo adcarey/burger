@@ -18,9 +18,8 @@ Next, install the application dependencies.
 
 cd burger
 npm install
-Finally, run the node server locally.
+node server.js
 
-node server
-Now, open the local application on port 3000 at the URL: http://localhost:3000/.
 
-Enjoy and have a burger!
+Open locally URL: http://localhost:3000/.
+
