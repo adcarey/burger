@@ -4,7 +4,7 @@
 	<div class= "container">
 		<div class= "row">
 			<div class="col-sm-6 text-center">
-				<h3>Burgers that need to be eaten!!!!</h3>
+				<h3 class="text-center">Burgers that need to be eaten!!!!</h3>
 				{{#each burgers}}
 					{{#unless this.devoured}}
 				<div>
@@ -12,6 +12,7 @@
 						<button type="submit" class="btn btn-primary" id= "burgerAvailable"> {{this.burger_name}}
 						</button>
 					</form>
+		
 			</div>
 		{{/unless}}
 		{{/each}}		

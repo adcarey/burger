@@ -16,9 +16,15 @@ body {
  h3 {
  	background-color: beige;
  	padding: 10px;
+ 	width: 100%;
  }
 h2 {
 	background-color: red;
 	color: white;
 	padding: 10px;
+}
+button {
+	margin: 10px;
+	width: 95%;
+	float: left;
 }
