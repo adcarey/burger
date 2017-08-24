@@ -17,8 +17,8 @@ if (process.env.JAWSDB_URL) {
 	// 	password: "uffxfp4509vm3qch",
 	// 	database: "burgers_db"
 	// });
+});
 };
-
 
 
 // Make connection.
@@ -33,5 +33,4 @@ connection.connect(function(err) {
 
 
 
-connection.connect();
 module.exports = connection;
