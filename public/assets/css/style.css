@@ -1,3 +1,24 @@
 body {
 	background-image: url("burger.jpg") ;
 }
+.burgerEaten{
+	margin: 10px;
+ 	padding: 10px;
+ 	background-color: purple;
+ 	color: white;
+ }
+ h1 {
+ 	background-color: red;
+ 	color: white;
+ 	padding: 10px;
+
+ }
+ h3 {
+ 	background-color: beige;
+ 	padding: 10px;
+ }
+h2 {
+	background-color: red;
+	color: white;
+	padding: 10px;
+}
